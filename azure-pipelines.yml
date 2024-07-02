@@ -7,53 +7,13 @@ trigger:
 - main
 
 pool:
-  name: Default
-  demands: 
-    Unity_2021.3.5f1
+  vmImage: 'ubuntu-latest'
 
 steps:
-#cleanup for unity build
-- task: DeleteFiles@1
-  inputs:
-    SourceFolder: '$(Build.ArtifactStagingDirectory)'
-    Contents: '**/*'
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
 
-#get the previously secured library (if any) for performance reasons
-- task: DeleteFiles@1
-  inputs:
-    SourceFolder: '$(Build.Repository.LocalPath)\Unity Source\Manage the Universe\Library'
-    Contents: '**/*'
-- task: CmdLine@2
-  inputs:
-    script: 'if EXIST "$(Build.BinariesDirectory)\Library\" move "$(Build.BinariesDirectory)\Library" "$(Build.Repository.LocalPath)\Unity Source\Manage the Universe\Library"'
-
-#unity PC build
-- task: UnityBuildTask@3
-  inputs:
-    buildTarget: 'Win64'
-    unityProjectPath: 'Unity Source\Manage the Universe'
-    outputPath: '$(Build.BinariesDirectory)\Build'
-    outputFileName: 'ManageTheUniverse'
-
-#create the installer
-- task: BatchScript@1
-  inputs:
-    filename: 'Installer/createsetup.bat'
-    arguments: '"$(Build.BinariesDirectory)\Build\*" "$(Build.ArtifactStagingDirectory)\SetupCreation" "0.1.$(Build.BuildNumber)"'
-    workingFolder: '$(Build.Repository.LocalPath)\Installer'
-
-#upload artifact
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)\SetupCreation'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
-
-#secure the library for performance reasons
-- task: DeleteFiles@1
-  inputs:
-    SourceFolder: '$(Build.BinariesDirectory)\Library'
-    Contents: '**/*'
-- task: CmdLine@2
-  inputs:
-    script: 'move "$(Build.Repository.LocalPath)\Unity Source\Manage the Universe\Library" "$(Build.BinariesDirectory)\Library"'
+- script: 
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
