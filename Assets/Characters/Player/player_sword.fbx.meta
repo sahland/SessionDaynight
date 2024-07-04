@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 2725c1a681a4f2d458933d94183740ea
+guid: 1c645b545765f1248aafc00da4c9af4f
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: damage
+    second: sword
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -36,11 +36,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: damage
+      name: sword
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 33
+      lastFrame: 49
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
