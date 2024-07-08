@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954c2589476a7a64296a17d1dd8a33bb, type: 3}
+  m_Name: baton
+  m_EditorClassIdentifier: 
+  name: "\u0414\u0443\u0431\u0438\u043D\u043A\u0430"
+  icon: {fileID: 21300000, guid: fc46741c608d6f145a21ffb28b9db09d, type: 3}
+  isDefaultItem: 0
+  equipSlot: 3
+  mesh: {fileID: -8236128700428033917, guid: 0f31e7a6b17df4b4b96c55302da34ac5, type: 3}
+  material: {fileID: 2100000, guid: 810d564c4d6ea6a4c80fb75b67b93497, type: 2}
+  armorModifier: 0
+  damageModifier: 2

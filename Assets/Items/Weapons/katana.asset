@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954c2589476a7a64296a17d1dd8a33bb, type: 3}
+  m_Name: katana
+  m_EditorClassIdentifier: 
+  name: "\u041A\u0430\u0442\u0430\u043D\u0430"
+  icon: {fileID: 21300000, guid: b1905602636889449b2a337a6b3460d8, type: 3}
+  isDefaultItem: 0
+  equipSlot: 3
+  mesh: {fileID: 3680027719181775668, guid: 2cc02743a72c2ff438738c3b83d2b0fc, type: 3}
+  material: {fileID: 2100000, guid: 6cbe912cd45baed42be212ff2d319727, type: 2}
+  armorModifier: 5
+  damageModifier: 0

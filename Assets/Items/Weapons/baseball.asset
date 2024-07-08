@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954c2589476a7a64296a17d1dd8a33bb, type: 3}
+  m_Name: baseball
+  m_EditorClassIdentifier: 
+  name: "\u0411\u0438\u0442\u0430"
+  icon: {fileID: 21300000, guid: 09145c946df9f23439661b3ec5b3c2ef, type: 3}
+  isDefaultItem: 0
+  equipSlot: 3
+  mesh: {fileID: 3860998646400816955, guid: 9f7bd756cd2a0bd40b655ab491ec499f, type: 3}
+  material: {fileID: 2100000, guid: 8de3768a0e3521f48bdbf97f3b33fc58, type: 2}
+  armorModifier: 0
+  damageModifier: 2
