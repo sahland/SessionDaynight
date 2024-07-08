@@ -7,15 +7,20 @@ public class Item : ScriptableObject
     public Sprite icon;
     public bool isDefaultItem;
 
-    public virtual void Use()
-    {
-        Debug.Log("Using " + name);
-    }
-
     public Item()
     {
         name = "New Item";
         icon = null;
         isDefaultItem = false;
+    }
+
+    public virtual void Use()
+    {
+        Debug.Log("Using " + name);
+    }
+
+    public void RemoveFromInventory()
+    {
+        Inventory.instance.Remove(this);
     }
 }

@@ -12,7 +12,6 @@ public class Interactable : MonoBehaviour
     public virtual void Interact()
     {
         //Данный метод необходим для переопределения
-        Debug.Log("Interacting with " + interactionTransform.name);
     }
 
     void Start()
