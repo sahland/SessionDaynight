@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954c2589476a7a64296a17d1dd8a33bb, type: 3}
+  m_Name: casca
+  m_EditorClassIdentifier: 
+  name: "\u041A\u0430\u0441\u043A\u0430"
+  icon: {fileID: 21300000, guid: d0bd03622da6c8f40b30aedaaf0cb6b2, type: 3}
+  isDefaultItem: 0
+  equipSlot: 0
+  mesh: {fileID: 2755126821080034787, guid: be6a24614798ae64c98a625802fc2a74, type: 3}
+  material: {fileID: 2100000, guid: 21a5d9e35c9e6064f8b761d4a9d9ffcb, type: 2}
+  armorModifier: 6
+  damageModifier: 0
