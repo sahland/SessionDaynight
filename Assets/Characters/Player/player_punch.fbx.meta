@@ -1,11 +1,14 @@
 fileFormatVersion: 2
-guid: 1c645b545765f1248aafc00da4c9af4f
+guid: 8c147bfd03e44d74f8864881a8ce55cd
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: sword
+    second: mixamo.com
+  - first:
+      74: -2639477235012919003
+    second: punch
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -36,11 +39,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: sword
+      name: punch
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 49
+      lastFrame: 48
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -60,7 +63,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.41614908
+      - time: 0.4968944
         functionName: AttackHitEvent
         data: 
         objectReferenceParameter: {instanceID: 0}
