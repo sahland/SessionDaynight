@@ -11,7 +11,7 @@ public class EnemyController : MonoBehaviour
 
     void Start()
     {
-        lookRadius = 10f;
+        lookRadius = 6f;
 
         _target = PlayerManager.instance.player.transform;
         _agent = GetComponent<NavMeshAgent>();

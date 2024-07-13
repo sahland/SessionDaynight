@@ -18,9 +18,9 @@ public class CameraController : MonoBehaviour
     public void Start()
     {
         pitch = 1.15f;
-        zoomSpeed = 4;
-        minZoom = 5;
-        maxZoom = 10;
+        zoomSpeed = 5;
+        minZoom = 4;
+        maxZoom = 15;
         yawSpeed = 100;
 
         _currentYaw = 0;
