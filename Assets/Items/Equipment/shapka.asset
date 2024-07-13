@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 954c2589476a7a64296a17d1dd8a33bb, type: 3}
-  m_Name: baseball
+  m_Name: shapka
   m_EditorClassIdentifier: 
-  name: "\u0411\u0438\u0442\u0430"
-  icon: {fileID: 21300000, guid: 09145c946df9f23439661b3ec5b3c2ef, type: 3}
+  name: "\u0428\u0430\u043F\u043A\u0430"
+  icon: {fileID: 21300000, guid: 859ea66fe59329446b6d019835a8a7cc, type: 3}
   isDefaultItem: 0
-  equipSlot: 3
-  mesh: {fileID: 3860998646400816955, guid: 9f7bd756cd2a0bd40b655ab491ec499f, type: 3}
-  material: {fileID: 2100000, guid: 8de3768a0e3521f48bdbf97f3b33fc58, type: 2}
-  armorModifier: 1
-  damageModifier: 7
+  equipSlot: 0
+  mesh: {fileID: -5526719067434726846, guid: 1c825aeb740d92844ae44ac9dd307a4f, type: 3}
+  material: {fileID: 2100000, guid: f64e3a5ba3906584680e4becda1d77ca, type: 2}
+  armorModifier: 2
+  damageModifier: 0

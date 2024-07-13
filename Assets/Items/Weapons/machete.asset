@@ -18,5 +18,5 @@ MonoBehaviour:
   equipSlot: 3
   mesh: {fileID: 2516276708048117388, guid: d45cb747dcb54f6439d75e5281822939, type: 3}
   material: {fileID: 2100000, guid: 8de35c8444104cc478b510edd3d2d2a6, type: 2}
-  armorModifier: 4
-  damageModifier: 0
+  armorModifier: 2
+  damageModifier: 12

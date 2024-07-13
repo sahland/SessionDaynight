@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 954c2589476a7a64296a17d1dd8a33bb, type: 3}
-  m_Name: baseball
+  m_Name: helmet
   m_EditorClassIdentifier: 
-  name: "\u0411\u0438\u0442\u0430"
-  icon: {fileID: 21300000, guid: 09145c946df9f23439661b3ec5b3c2ef, type: 3}
+  name: "\u0428\u043B\u0435\u043C"
+  icon: {fileID: 21300000, guid: cb64e424de6e91742b096a8356de2b2d, type: 3}
   isDefaultItem: 0
-  equipSlot: 3
-  mesh: {fileID: 3860998646400816955, guid: 9f7bd756cd2a0bd40b655ab491ec499f, type: 3}
-  material: {fileID: 2100000, guid: 8de3768a0e3521f48bdbf97f3b33fc58, type: 2}
-  armorModifier: 1
-  damageModifier: 7
+  equipSlot: 0
+  mesh: {fileID: 1270494388766054137, guid: 1c5a01ac7d36e3f428d362f303f3e390, type: 3}
+  material: {fileID: 2100000, guid: c04f3db10387da54495b28532770aa7b, type: 2}
+  armorModifier: 12
+  damageModifier: 1
